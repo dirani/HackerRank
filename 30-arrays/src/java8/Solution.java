@@ -26,15 +26,10 @@ public class Solution {
 
         bufferedReader.close();
 
-        System.out.println(arr);
-
-        int[] invertido  = new int[n];
-        
-        List<Integer> inv = new ArrayList<Integer>();
-
         for (int i = 0; i < n ; i++) {
-            inv.add(arr.get(n -1 -i));
+            System.out.print(arr.get(n -1 -i));
+            System.out.print(" ");
         }
-        System.out.println(inv);
+        System.out.println();
     }
 }
